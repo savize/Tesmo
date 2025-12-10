@@ -35,8 +35,8 @@ Make sure you have the following installed:
    npm install && npm run dev
    ```  
 4. **Set up environment file**
-  - Copy .env.example to .env
-  - Update database credentials and other environment variables inside .env.
+  - Copy `.env.example` to `.env`
+  - Update database credentials and other environment variables inside `.env.`
 5. **Generate application key**  
    ```bash
    php artisan key:generate
@@ -49,4 +49,4 @@ Make sure you have the following installed:
    ```bash
    php artisan serve
    ```
-   The project will be available at: http://127.0.0.1:8000
+   The project will be available at: `http://127.0.0.1:8000`
