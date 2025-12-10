@@ -1,6 +1,6 @@
 # 🌐 Tesmo Project
 
-This repository contains the source code for one of my projects named **Tesmo**, built with **PHP, Laravel, HTML, CSS and JavaScript**.\
+This repository contains the source code for one of my projects named **Tesmo**, built with **PHP, Laravel, HTML, CSS and JavaScript**.
 
 ## 🚀 Overview
 
@@ -23,6 +23,30 @@ Make sure you have the following installed:
 ### 🚀 Steps to Set Up
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/savize/Tesmo.git
    cd your-repo-name
    ```
+2. **Install PHP dependencies**
+   ```bash
+   composer install
+   ```
+3. **Install frontend dependencies (if applicable)**
+   ```bash
+   npm install && npm run dev
+   ```  
+4. **Set up environment file**
+  - Copy .env.example to .env
+  - Update database credentials and other environment variables inside .env.
+5. **Generate application key**  
+   ```bash
+   php artisan key:generate
+   ```
+6. **Run migrations (and seed if needed)**
+   ```bash
+   php artisan migrate --seed
+   ```
+7. **Start the local development server**
+   ```bash
+   php artisan serve
+   ```
+   The project will be available at: http://127.0.0.1:8000
